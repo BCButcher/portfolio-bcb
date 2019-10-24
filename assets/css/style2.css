@@ -1,0 +1,124 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ nav ul a,
+ nav .brand-logo {
+   color: #444;
+ }
+ 
+ p {
+   line-height: 2rem;
+ }
+ 
+ .sidenav-trigger {
+   color: #26a69a;
+ }
+ 
+ .parallax-container {
+   min-height: 300px;
+   line-height: 0;
+   height: auto;
+   color: rgba(255,255,255,.9);
+ }
+   .parallax-container .section {
+     width: 100%;
+   }
+ 
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     position: absolute;
+     top: 40%;
+   }
+   #index-banner .section {
+     top: 10%;
+   }
+ }
+ 
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+ }
+ 
+ .icon-block {
+   padding: 0 15px;
+ }
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+ 
+ footer.page-footer {
+   margin: 0;
+ }
+ 
+ .index-banner {
+    background-color: black;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .neon {
+     position: relative;
+     overflow: hidden;
+     filter: brightness(200%);
+ }
+ 
+ .text {
+    background-color: black;
+    color: white;
+    font-size: 125px;
+    font-family: "Homemade Apple", cursive;
+    position: relative;
+ }
+ 
+ .text::before {
+     content: attr(data-text);
+     position: absolute;
+     color: white;
+     filter: blur(0.02em);
+     mix-blend-mode: difference;
+ }
+ 
+ .gradient {
+     position: absolute;
+     background: linear-gradient(45deg, red, gold, lightgreen, gold, red);
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     mix-blend-mode: multiply;
+ }
+ 
+ .spotlight {
+     position: absolute;
+     top: -100%;
+     left: -100%;
+     right: 0;
+     bottom: 0;
+     background: 
+         radial-gradient(
+             circle,
+             white,
+             transparent 25%
+         ) center / 25% 25%,
+         radial-gradient(
+             circle,
+             white,
+             black 25%
+         ) center / 12.5% 12.5%;
+     animation: light 5s linear infinite;
+     mix-blend-mode: color-dodge;
+ }
+ 
+ @keyframes light {
+     to {
+         transform: translate(50%, 50%);
+     }
+ }

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Caveat|Cedarville+Cursive|Coming+Soon|Give+You+Glory|Gloria+Hallelujah|Homemade+Apple|Kristi|Lakki+Reddy|Liu+Jian+Mao+Cao|Nanum+Brush+Script|Nothing+You+Could+Do|Reenie+Beanie|Rock+Salt|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="assets/css/materialize/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <!-- <link href="\assets\css\materialize\materialize.min.css" type="text/css" rel="stylesheet" meida="screen/projection"/> -->
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/> 
+</head>
+<body>
+  <div class="parallax">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">Portfolio</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+            
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  
+    <div class="parallax-container" id="sectiona">
+      <div class="parallax" id="titlesection"><img src="assets\images\brianstyle.gif"></div>
+    </div>
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header" data-text="About Brian..." id="aboutme">About Brian...</h2>
+        <div id="aboutpic">
+          <div class="image10">
+              <img style="padding: 0 15px; float: left;" src="assets/images/FB_IMG_1491788689575.jpg" width="250" height="275" id="image10">
+              <button id="spinbutton">Click Me</button>
+          <p style="margin-top: 20px;"></p>
+          <p><br /><br />
+          About this guy... what is there to say that's nice? What is there to say at all? If you're looking 
+          for the best, you should hire this guy! He's a genius at everything he does. I mean, c'mon, just 
+          just look at this portfolio. Have you ever seen anything so beautiful without a single speling 
+          mistake. Need I say more? Well then I shall...
+          <br /><br />
+          It all began back on Wednesday in May 1979... May 9th to be exact. *****SPOILER ALERT - May 9 is my birthday *****
+          Remember that because I like my birthday to be celebrated as much at the office as at home. I tend to get
+          a little ornary when it's missed. Anyway, speling mista... soryy, May 9, 1979. What a glorious day in 
+          Brampton, ON. The sun was shining, birds were singing, there were orangutans swinging through the trees
+          creating a most alarming spectacle. The day couldn't have been better until... At a certain hour, a 
+          certain minute, and a certain second a baby of a weight, a height, and an undetermined gender was born.
+          Henceforth this child shall be known as, Brian.
+          <br /><br />
+          40-years passed, Brian found himself in a coding bootcamp at the University of Toronto where he created 
+          material and an about me page so extraordinary any company he applied to offered him the salary of his
+          choosing, without question.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax" id="bodysection0"><img src="assets\images\when-coding-is-criminal.jpg"></div>
+  </div>
+  <div class="section white">
+    <div class="row container">
+      <h2 class="header">Parallax</h2>
+      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+    </div>
+  </div>
+  
+  <div class="parallax-container">
+    <div class="parallax" id="bodysection1"><img src="assets\images\codecode.jpg"></div>
+  </div>
+  <div class="section white">
+    <div class="row container">
+      <h2 class="header">Parallax</h2>
+      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+    </div>
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax" id="bodysection2"><img src="assets\images\when-coding-is-criminal.jpg"></div>
+  </div>
+  <div class="section white">
+    <div class="row container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 offset-xl-2 py-5">
+            <h1>Contact Form</h1>
+            <form id="contact-form" method="post" action="contact.php" role="form">
+              <div class="messages"></div>
+              <div class="controls">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="form_name">First Name *</label>
+                      <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your First Name *" required="required" data-error="Firstname is required.">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="form_lastname">Last Name *</label>
+                      <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your Last Name *" required="required" data-error="Lastname is required.">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="form_email">Email *</label>
+                      <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter a valid email address" required="required" data-error="Valid email is required.">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="form_need">Subject of your message *</label>
+                      <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                        <option value=""></option>
+                        <option value="Request quotation">Freelance Work</option>
+                        <option value="Request order status">Job Offer</option>
+                        <option value="Request copy of an invoice">Compliments</option>
+                        <option value="Vote to Impeach the Bastard">Vote to Impeach the Bastard</option>
+                        <option value="Invitation to meet with a Head of State">Invitation to meet with a Head of State</option>
+                        <option value="Complaints about Donald Trump">Complaints about Donald Trump</option>
+                        <option value="Problems I probably can't help with">Problems I probably can't help with</option>
+                        <option value="Jeff Bezos extortion ideas">Jeff Bezos extortion ideas</option>
+                        <option value="Complimentary Passing Grade for SCS Coding Bootcamp">Complimentary Passing Grade for SCS Coding Bootcamp</option>
+                        <option value="Other">Other</option>
+                      </select>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="form_message">Message *</label>
+                      <textarea id="form_message" name="message" class="form-control" placeholder="Please type your message" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="text-muted">
+                      <strong>*</strong> These fields are required.
+                    </p>
+                  </div>
+                </div>
+              </div>        
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax"><img src="assets\images\codecode.jpg"></div>
+  </div>        
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>              
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/materialize.js"></script>
+    <script src="assets/js/init.js"></script>
+    <!-- <script src="\assets\js\materialize.min.js"></script>  -->
+</body>
+</html>
