@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-bcb",
+  "version": "1.2.2",
+  "description": "My Peronsal Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BCButcher/portfolio-bcb.git"
+  },
+  "author": "Brian C Butcher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BCButcher/portfolio-bcb/issues"
+  },
+  "homepage": "https://github.com/BCButcher/portfolio-bcb#readme"
+}
