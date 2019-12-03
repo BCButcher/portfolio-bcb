@@ -1,4 +1,6 @@
 /* Custom Stylesheet */
+
+
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
@@ -6,92 +8,138 @@
  * Made By MaterializeCSS.com
  */
 
+* {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 nav ul a,
 nav .brand-logo {
-  color: #444;
+    color: #444;
 }
 
 p {
-  line-height: 2rem;
+    line-height: 2rem;
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+    color: #26a69a;
 }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
 }
 
 .parallax-container .section {
-  width: 100%;
+    width: 100%;
 }
 
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
 }
 
-#index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
 }
 
 .icon-block {
-  padding: 0 15px;
+    padding: 0 15px;
 }
+
 .icon-block .material-icons {
-  font-size: inherit;
+    font-size: inherit;
 }
 
 footer.page-footer {
-  margin: 0;
+    margin: 0;
 }
 
 #aboutme {
-  font-family: 'caveat';
+    font-family: 'caveat';
 }
 
 #image10 {
-  transition: transform 1s linear;
-  transform-origin: top left;
-  transform-style: preserve-3D;
-  }
+    transition: transform 1s linear;
+    transform-origin: top left;
+    transform-style: preserve-3D;
+}
 
 .pic-rotate {
     transform: rotate(360deg);
-  }
+}
 
 #spinbutton {
     display: block;
     margin: auto;
-  }
+}
 
-  .box {
+.box {
     background: lightblue;
     width: 200px;
     height: 200px;
     margin: 20px auto;
-    transition: transform 1s linear;
-    transform-origin: top left;
+    transition: transform 0.3s linear;
+    transform-origin: top right;
     transform-style: preserve-3D;
-  }
-  
-  .box-rotate {
+}
+
+.box-rotate {
     transform: rotate(360deg);
-  }
-  
-  button {
+}
+
+button {
     display: block;
     margin: auto;
-  }
+}
+
+#logo-container {
+    font-family: Nothing you could do;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* top margin for first row on portfolio page */
+
+#portf_row1 {
+    margin-top: 20px;
+}
+
+#trusael_div {
+    margin-top: 15px;
+}
+
+#trusael_image:hover,
+#pokesim_image:hover,
+#employee_directory_image:hover,
+#team_generator_image:hover,
+#burgerxing_image:hover {
+    transition: transform .5s;
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    -webkit-transform: scale(1.2);
+    /* Safari 3-8 */
+    transform: scale(1.2);
+    opacity: 0.5;
+    animation: rotation 0.3s 2 linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
